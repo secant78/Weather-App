@@ -1,0 +1,74 @@
+#background{
+  height:700px;
+  background-position:center;
+  position:relative;
+}
+.circle{
+  width:750px;
+  height:500px;
+  top:15%;
+  border-radius:100px;
+  font-size:25px;
+  font-weight:bolder;
+  color:white;
+  line-height:10px;
+ background-color: rgba(61,62,112,.7); // Tint color
+  background-blend-mode: multiply;
+  left:25%;
+  right:25%;
+  text-align:center;
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+  vertical-align:middle;
+  position:absolute;
+}
+#title h1{
+  padding-top:5%;
+  font-size:40px;
+  padding-bottom:12px;
+}
+.text-pad{
+  padding-bottom:12px;
+}
+#cityCountry{
+  text-align:center;
+}
+#temp-container{
+  font-size:100px;
+  padding-left:-20px;
+  padding-top:300px;
+  position:absolute;
+}
+
+#weather1{
+}
+#icon-conditions{
+  float:right;
+  padding-right:20%;
+  
+}
+#changetemp{
+  text-align:center;
+  height:210px;
+}
+#weatherconditions{
+}
+.btn-group{
+  padding-top:75px;
+}
+#tempC{
+  font-size:100px;
+  padding-top:14%;
+}
+#buttons{
+  padding-top:70px;
+}
+#hours{
+ padding-top: 25px;
+}
+.temp-button{
+    background: rgb(66,184,221);
+    color:white;
+    border-radius: 4px;
+   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  font-size:15px;
+}
